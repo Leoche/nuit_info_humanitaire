@@ -9,8 +9,8 @@
   * is_connect nous dit si l'utilisateur est connecte ou non
   * @return true si l'utilisateur est connecte, false sinon
   */
- function is_connect() {
-	 return isset($_SESSION['login']);
+ function is_connect_organisation() {
+	 return (!empty($_SESSION['ID_Benevole']));
  }
 
 

@@ -1,0 +1,9 @@
+jQuery(function($){
+	$(".btn-login").click(function(e){
+		e.preventDefault();
+		if($("#login-form-group").hasClass("hidden")){
+			$("#login-form-group").removeClass("hidden");
+			$("#btn-register").addClass("hidden");
+		}
+	});
+});
