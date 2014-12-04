@@ -10,7 +10,7 @@
   * @return true si l'utilisateur est connecte, false sinon
   */
  function is_connect_organisation() {
-	 return (!empty($_SESSION['ID_Benevole']));
+	 return (!empty($_SESSION['ID_Organisation']));
  }
 
 
